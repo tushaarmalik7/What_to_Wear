@@ -783,8 +783,8 @@ footer {
 }
 
 .developers-container {
-    max-width: 800px;
-    margin: auto;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .developers-title {
@@ -811,7 +811,7 @@ footer {
 
 .developers-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 30px;
     justify-items: center;
 }
